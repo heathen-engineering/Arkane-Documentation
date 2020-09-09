@@ -1,7 +1,7 @@
 var class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token =
 [
     [ "contract", "class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html#a173e0705d9ca577515c54b3b310c3053", null ],
-    [ "Data", "class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html#a90ca90f691474950bdde74d9d872342f", null ],
+    [ "Data", "class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html#a0e701e16f6020afeb03d92ab9833ccef", null ],
     [ "TokenCreateRequestData", "class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html#a6825a86e5cd14cb66b425c576b875f5e", null ],
     [ "TokenCreateResponceData", "class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html#af1672693ae03a2cd80a6c8324d82e521", null ],
     [ "UpdatedFromServer", "class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html#a06918c54fe22113d418a0b1f8a6356db", null ],

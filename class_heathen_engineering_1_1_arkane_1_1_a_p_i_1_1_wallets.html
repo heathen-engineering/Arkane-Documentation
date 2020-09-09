@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Arkane Foundation
-   &#160;<span id="projectnumber">0.1.0</span>
+   &#160;<span id="projectnumber">0.1.1</span>
    </div>
   </td>
  </tr>
@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('class_heathen_engineering_1_1_arkane_1
 </div><!--header-->
 <div class="contents">
 
-<p>Wraps the <a class="el" href="namespace_heathen_engineering_1_1_arkane.html">Arkane</a> interface for wallets incuding <a class="el" href="class_heathen_engineering_1_1_arkane_1_1_a_p_i_1_1_user.html">User</a>, App and Whitelable wallets.  
+<p>Wraps the <a class="el" href="namespace_heathen_engineering_1_1_arkane.html">Arkane</a> interface for wallets incuding <a class="el" href="class_heathen_engineering_1_1_arkane_1_1_a_p_i_1_1_user.html" title="A wrapper around Arkane&#39;s User API">User</a>, App and Whitelable wallets.  
  <a href="class_heathen_engineering_1_1_arkane_1_1_a_p_i_1_1_wallets.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -127,9 +127,16 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ae7be91b8dc241118c44dc15bae294548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Wraps the <a class="el" href="namespace_heathen_engineering_1_1_arkane.html">Arkane</a> interface for wallets incuding <a class="el" href="class_heathen_engineering_1_1_arkane_1_1_a_p_i_1_1_user.html">User</a>, App and Whitelable wallets. </p>
+<div class="textblock"><p>Wraps the <a class="el" href="namespace_heathen_engineering_1_1_arkane.html">Arkane</a> interface for wallets incuding <a class="el" href="class_heathen_engineering_1_1_arkane_1_1_a_p_i_1_1_user.html" title="A wrapper around Arkane&#39;s User API">User</a>, App and Whitelable wallets. </p>
 <p>Wallet funcitonality is discribed in the <a href="https://docs.arkane.network/pages/reference.html">https://docs.arkane.network/pages/reference.html</a></p>
-<p>documentation. </p>
+<p>documentation. All functions of this class and child classes are designed to be used with Unity's StartCoroutine method. All funcitons of this class will take an Action as the final paramiter which is called when the process completes. Actions can be defined as a funciton in the calling script or can be passed as an expression. </p>
+<div class="fragment"><div class="line">StartCoroutine(API.Wallets.Get(Identity, walletId, HandleResults));</div>
+</div><!-- fragment --> <p>or </p>
+<div class="fragment"><div class="line">StartCoroutine(API.Wallets.Get(Identity, walletId, (resultObject) =&gt; </div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">//TODO: handle the resultObject</span></div>
+<div class="line">}));</div>
+</div><!-- fragment --> <p>Additional code samples can be found in the Samples provided with the package. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7f707bc6b36d09a70a27591c3698c166"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f707bc6b36d09a70a27591c3698c166">&#9670;&nbsp;</a></span>CreateWhitelableWallet()</h2>
@@ -209,7 +216,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The Unity routine enumerator</dd></dl>
 
 </div>
 </div>
@@ -261,50 +268,9 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The Unity routine enumerator</dd></dl>
 <p><a href="https://docs.arkane.network/pages/reference.html#get-specific-user-wallet">https://docs.arkane.network/pages/reference.html#get-specific-user-wallet</a></p>
-<ul>
-<li>
-A simple example class in the form of a MonoBehaviour which authenticates on Start and then returns the available wallets. </li>
-</ul>
-<p>Example Output: </p>
-<p>Has Error: false Authentication complete. Has Error: false Wallet refresh complete. Wallet A : [address of wallet A] Wallet B : [address of wallet B] </p>
-<div class="fragment"><div class="line"><span class="keyword">namespace </span>HeathenEngineering.ArkaneExamples</div>
-<div class="line">{</div>
-<div class="line">   <span class="keyword">public</span> <span class="keyword">class </span>ExampleBehaviour : MonoBehaviour</div>
-<div class="line">   {</div>
-<div class="line">       <span class="keyword">public</span> ArkaneSettings settings;</div>
-<div class="line">       <span class="keyword">public</span> ArkaneIdentity Identity = <span class="keyword">new</span> ArkaneIdentity();</div>
-<div class="line">       <span class="keyword">public</span> ulong walletId;</div>
-<div class="line"> </div>
-<div class="line">       <span class="keyword">private</span> <span class="keywordtype">void</span> Start()</div>
-<div class="line">       {</div>
-<div class="line">           Arkane.Settings = settings;</div>
-<div class="line">           StartCoroutine(Arkane.RefreshAuthenticate(Identity, HandleAuthenticationResult));</div>
-<div class="line">       }</div>
-<div class="line"> </div>
-<div class="line">       <span class="keyword">private</span> <span class="keywordtype">void</span> HandleAuthenticationResult(AuthenticationResult result)</div>
-<div class="line">       {</div>
-<div class="line">           Debug.Log(<span class="stringliteral">&quot;Has Error: &quot;</span> + result.hasError + <span class="stringliteral">&quot;\nMessage:&quot;</span> + result.message);</div>
-<div class="line">           StartCoroutine(Arkane.Wallets.UserWallet.Get(Identity, walletId, HandleWalletRefresh));</div>
-<div class="line">       }</div>
-<div class="line"> </div>
-<div class="line">       <span class="keyword">private</span> <span class="keywordtype">void</span> HandleWalletRefresh(ListWalletResult result)</div>
-<div class="line">       {</div>
-<div class="line">           Debug.Log(<span class="stringliteral">&quot;Has Error: &quot;</span> + result.hasError + <span class="stringliteral">&quot;\nMessage:&quot;</span> + result.message);</div>
-<div class="line"> </div>
-<div class="line">           <span class="keywordflow">if</span> (!result.hasError)</div>
-<div class="line">           {</div>
-<div class="line">               <span class="comment">//This will only return 1 wallet but uses the same return responce model as List so we need to loop</span></div>
-<div class="line">               <span class="keywordflow">foreach</span> (var wallet <span class="keywordflow">in</span> result.result)</div>
-<div class="line">               {</div>
-<div class="line">                   Debug.Log(wallet.description + <span class="stringliteral">&quot; : &quot;</span> + wallet.address);</div>
-<div class="line">               }</div>
-<div class="line">           }</div>
-<div class="line">       }</div>
-<div class="line">   }</div>
-<div class="line">}</div>
-</div><!-- fragment -->  
+
 </div>
 </div>
 <a id="ae7be91b8dc241118c44dc15bae294548"></a>
@@ -365,7 +331,7 @@ A simple example class in the form of a MonoBehaviour which authenticates on Sta
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The Unity routine enumerator</dd></dl>
 
 </div>
 </div>
@@ -411,48 +377,9 @@ A simple example class in the form of a MonoBehaviour which authenticates on Sta
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The Unity routine enumerator</dd></dl>
 <p><a href="https://docs.arkane.network/pages/reference.html#_list_wallets_arkane_api">https://docs.arkane.network/pages/reference.html#_list_wallets_arkane_api</a></p>
-<ul>
-<li>
-A simple example class in the form of a MonoBehaviour which authenticates on Start and then returns the available wallets. </li>
-</ul>
-<p>Example Output: </p>
-<p>Has Error: false Authentication complete. Has Error: false Wallet refresh complete. Wallet A : [address of wallet A] Wallet B : [address of wallet B] </p>
-<div class="fragment"><div class="line"><span class="keyword">namespace </span>HeathenEngineering.ArkaneExamples</div>
-<div class="line">{</div>
-<div class="line">   <span class="keyword">public</span> <span class="keyword">class </span>ExampleBehaviour : MonoBehaviour</div>
-<div class="line">   {</div>
-<div class="line">       <span class="keyword">public</span> ArkaneSettings settings;</div>
-<div class="line">       <span class="keyword">public</span> ArkaneIdentity Identity = <span class="keyword">new</span> ArkaneIdentity();</div>
-<div class="line"> </div>
-<div class="line">       <span class="keyword">private</span> <span class="keywordtype">void</span> Start()</div>
-<div class="line">       {</div>
-<div class="line">           Arkane.Settings = settings;</div>
-<div class="line">           StartCoroutine(Arkane.RefreshAuthenticate(Identity, HandleAuthenticationResult));</div>
-<div class="line">       }</div>
-<div class="line"> </div>
-<div class="line">       <span class="keyword">private</span> <span class="keywordtype">void</span> HandleAuthenticationResult(AuthenticationResult result)</div>
-<div class="line">       {</div>
-<div class="line">           Debug.Log(<span class="stringliteral">&quot;Has Error: &quot;</span> + result.hasError + <span class="stringliteral">&quot;\nMessage:&quot;</span> + result.message);</div>
-<div class="line">           StartCoroutine(Arkane.Wallets.UserWallet.List(Identity, HandleWalletRefresh));</div>
-<div class="line">       }</div>
-<div class="line"> </div>
-<div class="line">       <span class="keyword">private</span> <span class="keywordtype">void</span> HandleWalletRefresh(ListWalletResult result)</div>
-<div class="line">       {</div>
-<div class="line">           Debug.Log(<span class="stringliteral">&quot;Has Error: &quot;</span> + result.hasError + <span class="stringliteral">&quot;\nMessage:&quot;</span> + result.message);</div>
-<div class="line"> </div>
-<div class="line">           <span class="keywordflow">if</span> (!result.hasError)</div>
-<div class="line">           {</div>
-<div class="line">               <span class="keywordflow">foreach</span> (var wallet <span class="keywordflow">in</span> result.result)</div>
-<div class="line">               {</div>
-<div class="line">                   Debug.Log(wallet.description + <span class="stringliteral">&quot; : &quot;</span> + wallet.address);</div>
-<div class="line">               }</div>
-<div class="line">           }</div>
-<div class="line">       }</div>
-<div class="line">   }</div>
-<div class="line">}</div>
-</div><!-- fragment -->  
+
 </div>
 </div>
 <a id="ab9869529d53bd894b96f058ff059ab1b"></a>
@@ -513,7 +440,7 @@ A simple example class in the form of a MonoBehaviour which authenticates on Sta
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The Unity routine enumerator</dd></dl>
 
 </div>
 </div>
@@ -568,7 +495,7 @@ A simple example class in the form of a MonoBehaviour which authenticates on Sta
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The Unity routine enumerator</dd></dl>
 
 </div>
 </div>
@@ -629,7 +556,7 @@ A simple example class in the form of a MonoBehaviour which authenticates on Sta
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The Unity routine enumerator</dd></dl>
 
 </div>
 </div>
@@ -683,7 +610,7 @@ A simple example class in the form of a MonoBehaviour which authenticates on Sta
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The Unity routine enumerator</dd></dl>
 
 </div>
 </div>
@@ -737,7 +664,7 @@ A simple example class in the form of a MonoBehaviour which authenticates on Sta
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The Unity routine enumerator</dd></dl>
 
 </div>
 </div>
@@ -806,7 +733,7 @@ A simple example class in the form of a MonoBehaviour which authenticates on Sta
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The Unity routine enumerator</dd></dl>
 
 </div>
 </div>
@@ -819,7 +746,7 @@ A simple example class in the form of a MonoBehaviour which authenticates on Sta
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_heathen_engineering.html">HeathenEngineering</a></li><li class="navelem"><a class="el" href="namespace_heathen_engineering_1_1_arkane.html">Arkane</a></li><li class="navelem"><a class="el" href="namespace_heathen_engineering_1_1_arkane_1_1_a_p_i.html">API</a></li><li class="navelem"><a class="el" href="class_heathen_engineering_1_1_arkane_1_1_a_p_i_1_1_wallets.html">Wallets</a></li>
-    <li class="footer">Generated on Wed Jul 22 2020 16:12:30 for Arkane Foundation by
+    <li class="footer">Generated on Wed Sep 9 2020 18:34:41 for Arkane Foundation by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

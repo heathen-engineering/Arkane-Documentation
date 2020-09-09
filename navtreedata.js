@@ -52,8 +52,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_p_i_2_wallets_8cs.html",
-"class_heathen_engineering_1_1_arkane_1_1_editor_1_1_arkane_manager_window.html#a884333da0d46910a03bbed135decdeab",
-"struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_big_decimal.html#a4df8050ed0b814dc5840284f84a63682"
+"class_heathen_engineering_1_1_arkane_1_1_editor_1_1_arkane_manager_window.html#a88e1790e24e631d9a1467c0dc747bc1e",
+"struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_big_decimal.html#a6dd0b1959354d961431597546a865cfb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

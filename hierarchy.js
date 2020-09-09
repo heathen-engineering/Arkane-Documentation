@@ -22,7 +22,7 @@ var hierarchy =
     [ "HeathenEngineering.Arkane.DataModel.AuthenticationMode", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_authentication_mode.html", null ],
     [ "HeathenEngineering.Arkane.DataModel.AuthenticationResponce", "class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_authentication_responce.html", null ],
     [ "HeathenEngineering.Arkane.Connect.Wallets.Transactions.Bitcoin", "class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets_1_1_transactions_1_1_bitcoin.html", null ],
-    [ "HeathenEngineering.Arkane.DataModel.Contract", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_contract.html", null ],
+    [ "HeathenEngineering.Arkane.DataModel.ContractData", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_contract_data.html", null ],
     [ "HeathenEngineering.Arkane.DataModel.DomainTarget", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_domain_target.html", null ],
     [ "Editor", null, [
       [ "HeathenEngineering.Arkane.Editor.ArkaneSettingsEditor", "class_heathen_engineering_1_1_arkane_1_1_editor_1_1_arkane_settings_editor.html", null ]
@@ -51,9 +51,6 @@ var hierarchy =
     [ "HeathenEngineering.Arkane.DataModel.InventoryTokenEntry", "class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_inventory_token_entry.html", null ],
     [ "HeathenEngineering.Arkane.DataModel.ListedNFTToken", "class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_listed_n_f_t_token.html", null ],
     [ "HeathenEngineering.Arkane.Connect.Wallets.Transactions.Litecoin", "class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets_1_1_transactions_1_1_litecoin.html", null ],
-    [ "MonoBehaviour", null, [
-      [ "HeathenEngineering.Arkane.Examples.TestBehaviour", "class_heathen_engineering_1_1_arkane_1_1_examples_1_1_test_behaviour.html", null ]
-    ] ],
     [ "HeathenEngineering.Arkane.Connect.Wallets.Transactions.Neo", "class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets_1_1_transactions_1_1_neo.html", null ],
     [ "ObjectPreview", null, [
       [ "HeathenEngineering.Arkane.Editor.ArkaneDatamodelPreview", "class_heathen_engineering_1_1_arkane_1_1_editor_1_1_arkane_datamodel_preview.html", null ]
@@ -72,10 +69,10 @@ var hierarchy =
       [ "HeathenEngineering.Arkane.Engine.Settings", "class_heathen_engineering_1_1_arkane_1_1_engine_1_1_settings.html", null ],
       [ "HeathenEngineering.Arkane.Engine.Token", "class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html", null ]
     ] ],
-    [ "HeathenEngineering.Arkane.DataModel.Token", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token.html", null ],
     [ "HeathenEngineering.Arkane.DataModel.TokenBalance", "class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_balance.html", null ],
     [ "HeathenEngineering.Arkane.DataModel.TokenCreateRequestData", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_create_request_data.html", null ],
     [ "HeathenEngineering.Arkane.DataModel.TokenCreateResponceData", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_create_responce_data.html", null ],
+    [ "HeathenEngineering.Arkane.DataModel.TokenData", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_data.html", null ],
     [ "HeathenEngineering.Arkane.API.TokenManagement", "class_heathen_engineering_1_1_arkane_1_1_a_p_i_1_1_token_management.html", null ],
     [ "HeathenEngineering.Arkane.Connect.Wallets.Transactions", "class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets_1_1_transactions.html", null ],
     [ "HeathenEngineering.Arkane.Connect.Wallets.Transactions.Tron", "class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets_1_1_transactions_1_1_tron.html", null ],
@@ -86,6 +83,6 @@ var hierarchy =
     [ "HeathenEngineering.Arkane.Connect.Wallets.Transactions.Vechain", "class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets_1_1_transactions_1_1_vechain.html", null ],
     [ "HeathenEngineering.Arkane.DataModel.Wallet", "class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_wallet.html", null ],
     [ "HeathenEngineering.Arkane.DataModel.WalletBallance", "class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_wallet_ballance.html", null ],
-    [ "HeathenEngineering.Arkane.API.Wallets", "class_heathen_engineering_1_1_arkane_1_1_a_p_i_1_1_wallets.html", null ],
-    [ "HeathenEngineering.Arkane.Connect.Wallets", "class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets.html", null ]
+    [ "HeathenEngineering.Arkane.Connect.Wallets", "class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets.html", null ],
+    [ "HeathenEngineering.Arkane.API.Wallets", "class_heathen_engineering_1_1_arkane_1_1_a_p_i_1_1_wallets.html", null ]
 ];

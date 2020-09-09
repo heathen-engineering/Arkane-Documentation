@@ -19,7 +19,7 @@ var dir_5d64d7aae6ab69f8b6cbc97965d39c41 =
       [ "BigDecimal", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_big_decimal.html", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_big_decimal" ]
     ] ],
     [ "ContractData.cs", "_contract_data_8cs.html", [
-      [ "Contract", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_contract.html", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_contract" ]
+      [ "ContractData", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_contract_data.html", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_contract_data" ]
     ] ],
     [ "ContractResult.cs", "_contract_result_8cs.html", [
       [ "ContractResult", "class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_contract_result.html", "class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_contract_result" ]
@@ -76,7 +76,7 @@ var dir_5d64d7aae6ab69f8b6cbc97965d39c41 =
       [ "TokenCreateResponceData", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_create_responce_data.html", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_create_responce_data" ]
     ] ],
     [ "TokenData.cs", "_token_data_8cs.html", [
-      [ "Token", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token.html", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token" ]
+      [ "TokenData", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_data.html", "struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_data" ]
     ] ],
     [ "TokenDefinitionResult.cs", "_token_definition_result_8cs.html", [
       [ "TokenDefinitionResult", "class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_definition_result.html", "class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_definition_result" ]
