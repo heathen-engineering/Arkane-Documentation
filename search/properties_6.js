@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['properties_746',['properties',['../class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html#ab37ee743c8d4a3302a943f5abff12666',1,'HeathenEngineering::Arkane::Engine::Token']]]
+  ['refreshexpiresat_735',['RefreshExpiresAt',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_authentication_responce.html#a9a87a10a308ed836923d2eaa052788c4',1,'HeathenEngineering::BGSDK::DataModel::AuthenticationResponce']]]
 ];

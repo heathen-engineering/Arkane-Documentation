@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['validatesettingsmodel_605',['ValidateSettingsModel',['../class_heathen_engineering_1_1_arkane_1_1_editor_1_1_editor_utilities.html#ac2830fef53d09904516fc13113022424',1,'HeathenEngineering::Arkane::Editor::EditorUtilities']]]
+  ['webresults_587',['WebResults',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_web_results.html#a1907bfbf1796cf3bd172e619c3cdf82b',1,'HeathenEngineering.BGSDK.DataModel.WebResults.WebResults()'],['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_web_results.html#af4ee6d1493b3869a6c5e09239c15012f',1,'HeathenEngineering.BGSDK.DataModel.WebResults.WebResults(UnityWebRequest request)']]]
 ];

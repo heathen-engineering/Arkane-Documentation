@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['nativebalance_548',['NativeBalance',['../class_heathen_engineering_1_1_arkane_1_1_a_p_i_1_1_wallets.html#a2e39c71b002315731ea1098e65564d5d',1,'HeathenEngineering::Arkane::API::Wallets']]],
-  ['nativetransfer_549',['NativeTransfer',['../class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets_1_1_transactions.html#a930f02fad4608821ec66150362b95d7f',1,'HeathenEngineering::Arkane::Connect::Wallets::Transactions']]],
-  ['negate_550',['Negate',['../struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_big_decimal.html#a0052b7f1b335366ccb2728a6c5401612',1,'HeathenEngineering.Arkane.DataModel.BigDecimal.Negate()'],['../struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_big_decimal.html#afecf8535250e03dc9f79eb2c2a410efe',1,'HeathenEngineering.Arkane.DataModel.BigDecimal.Negate(BigDecimal value)']]],
-  ['nfttransfer_551',['NFTTransfer',['../class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets_1_1_transactions.html#adf1b5506222661353ae5f94f3066ac07',1,'HeathenEngineering::Arkane::Connect::Wallets::Transactions']]]
+  ['nativebalance_538',['NativeBalance',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_a_p_i_1_1_wallets.html#ad9d379076bb0444e8a2248493da38ffa',1,'HeathenEngineering::BGSDK::API::Wallets']]],
+  ['negate_539',['Negate',['../struct_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_big_decimal.html#ad48e9408a6badde6510a96a27e08bbeb',1,'HeathenEngineering.BGSDK.DataModel.BigDecimal.Negate()'],['../struct_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_big_decimal.html#a78898f52643095710680d078f01ae2ba',1,'HeathenEngineering.BGSDK.DataModel.BigDecimal.Negate(BigDecimal value)']]]
 ];

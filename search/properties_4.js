@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['expiresat_739',['ExpiresAt',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_authentication_responce.html#a10092ac43f53bbd85379580188080ea7',1,'HeathenEngineering::Arkane::DataModel::AuthenticationResponce']]]
+  ['expiresat_728',['ExpiresAt',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_authentication_responce.html#a083e6f61e43aa0efc3586123371e3b16',1,'HeathenEngineering::BGSDK::DataModel::AuthenticationResponce']]]
 ];

@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['neo_395',['Neo',['../class_heathen_engineering_1_1_arkane_1_1_connect_1_1_wallets_1_1_transactions_1_1_neo.html',1,'HeathenEngineering::Arkane::Connect::Wallets::Transactions']]]
+  ['user_413',['User',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_a_p_i_1_1_user.html',1,'HeathenEngineering::BGSDK::API']]],
+  ['userprofile_414',['UserProfile',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_user_profile.html',1,'HeathenEngineering::BGSDK::DataModel']]],
+  ['userprofileresult_415',['UserProfileResult',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_user_profile_result.html',1,'HeathenEngineering::BGSDK::DataModel']]],
+  ['utilities_416',['Utilities',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_utilities.html',1,'HeathenEngineering::BGSDK']]]
 ];

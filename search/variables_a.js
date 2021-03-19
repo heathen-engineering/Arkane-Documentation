@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['message_660',['message',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_arkane_base_result.html#ac76b270a202e1daffdd2b7cd7d30494e',1,'HeathenEngineering::Arkane::DataModel::ArkaneBaseResult']]],
-  ['minusone_661',['MinusOne',['../struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_big_decimal.html#a42738ea45d3a150c02e4821918ab4ceb',1,'HeathenEngineering::Arkane::DataModel::BigDecimal']]]
+  ['message_647',['message',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_b_g_s_d_k_base_result.html#a0653735a0175af91c6d40252e44b7f0b',1,'HeathenEngineering::BGSDK::DataModel::BGSDKBaseResult']]],
+  ['minusone_648',['MinusOne',['../struct_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_big_decimal.html#ad339ce9603eef79a04dc52be991d040e',1,'HeathenEngineering::BGSDK::DataModel::BigDecimal']]]
 ];

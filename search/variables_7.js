@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['hascustompin_644',['hasCustomPin',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_wallet.html#ac51f5828372b566936cd676d8a9700f5',1,'HeathenEngineering::Arkane::DataModel::Wallet']]],
-  ['haserror_645',['hasError',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_arkane_base_result.html#a4daa647d14d1fa31bacdf6747662de47',1,'HeathenEngineering::Arkane::DataModel::ArkaneBaseResult']]],
-  ['hasmasterpin_646',['hasMasterPin',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_user_profile.html#a9503d8b8f880f2de7ae5b96f413934af',1,'HeathenEngineering::Arkane::DataModel::UserProfile']]],
-  ['httpcode_647',['httpCode',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_arkane_base_result.html#aedbd53db8916cca0e4e44e50b08d73ea',1,'HeathenEngineering::Arkane::DataModel::ArkaneBaseResult']]]
+  ['hascustompin_629',['hasCustomPin',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_wallet.html#a7cbd7e4960a6f552574c2dc475bf82ff',1,'HeathenEngineering::BGSDK::DataModel::Wallet']]],
+  ['haserror_630',['hasError',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_b_g_s_d_k_base_result.html#a31f3bc0358ce5dc31bd0ee05aad3d8f2',1,'HeathenEngineering::BGSDK::DataModel::BGSDKBaseResult']]],
+  ['hasmasterpin_631',['hasMasterPin',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_user_profile.html#a720c8e6e4650de5c83f45e146f8072f2',1,'HeathenEngineering::BGSDK::DataModel::UserProfile']]],
+  ['httpcode_632',['httpCode',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_b_g_s_d_k_base_result.html#a2d3f8ed01989287763105ae6b0adc9c3',1,'HeathenEngineering::BGSDK::DataModel::BGSDKBaseResult']]]
 ];

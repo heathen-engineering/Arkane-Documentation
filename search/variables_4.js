@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['email_634',['email',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_user_profile.html#a46df267de414058fe7d01ebb6516e5e1',1,'HeathenEngineering::Arkane::DataModel::UserProfile']]],
-  ['error_635',['error',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_authentication_responce.html#a2e6d731ee3283360aee8cbb377838b0b',1,'HeathenEngineering::Arkane::DataModel::AuthenticationResponce']]],
-  ['error_5fdescription_636',['error_description',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_authentication_responce.html#a890b0f4d66251a2e2c2fe2894ae160bf',1,'HeathenEngineering::Arkane::DataModel::AuthenticationResponce']]],
-  ['exception_637',['exception',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_arkane_base_result.html#a4fdcb70b11ef2d405f5874d4324b6e4a',1,'HeathenEngineering::Arkane::DataModel::ArkaneBaseResult']]],
-  ['expires_5fin_638',['expires_in',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_authentication_responce.html#a2ea2d3db171f54b92db8c5dc9d34d2a8',1,'HeathenEngineering::Arkane::DataModel::AuthenticationResponce']]]
+  ['email_619',['email',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_user_profile.html#a7f950a252bc98ce78a83d6e2dcc4dbf2',1,'HeathenEngineering::BGSDK::DataModel::UserProfile']]],
+  ['error_620',['error',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_authentication_responce.html#abcc058dd2475d9296a651c00fa555bfc',1,'HeathenEngineering.BGSDK.DataModel.AuthenticationResponce.error()'],['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_web_results.html#af536d188528ac79262a0cf0b9700006c',1,'HeathenEngineering.BGSDK.DataModel.WebResults.error()']]],
+  ['error_5fdescription_621',['error_description',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_authentication_responce.html#aa8962621e805a33304c8845f0af93abb',1,'HeathenEngineering::BGSDK::DataModel::AuthenticationResponce']]],
+  ['exception_622',['exception',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_b_g_s_d_k_base_result.html#ac2116c2c39868dc27541f979b40a69e2',1,'HeathenEngineering::BGSDK::DataModel::BGSDKBaseResult']]],
+  ['expires_5fin_623',['expires_in',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_authentication_responce.html#a893b65a69530f3cf8408b333f5ec5101',1,'HeathenEngineering::BGSDK::DataModel::AuthenticationResponce']]]
 ];

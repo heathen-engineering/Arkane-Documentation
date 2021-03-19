@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Arkane Foundation", "index.html", [
+  [ "BGSDK Foundation", "index.html", [
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ],
       [ "Package Functions", "namespacemembers.html", [
@@ -38,7 +38,7 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Properties", "functions_prop.html", null ]
       ] ]
@@ -52,8 +52,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_p_i_2_wallets_8cs.html",
-"class_heathen_engineering_1_1_arkane_1_1_editor_1_1_arkane_manager_window.html#a88e1790e24e631d9a1467c0dc747bc1e",
-"struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_big_decimal.html#a6dd0b1959354d961431597546a865cfb"
+"class_heathen_engineering_1_1_b_g_s_d_k_1_1_editor_1_1_b_g_s_d_k_manager_window.html#adf3ae29367f26ecc16cedea085e589ba",
+"struct_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_big_decimal.html#a6de8da410db44e325b41ef5de615376c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

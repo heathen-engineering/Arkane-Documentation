@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jsonarraywrapper_167',['JSONArrayWrapper',['../class_heathen_engineering_1_1_arkane_1_1_utilities.html#a5e69100b578878d1962a5845031fdd16',1,'HeathenEngineering::Arkane::Utilities']]]
+  ['jsonarraywrapper_182',['JSONArrayWrapper',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_utilities.html#aadb43b3130ec99dcc319e5da97be4a77',1,'HeathenEngineering::BGSDK::Utilities']]]
 ];

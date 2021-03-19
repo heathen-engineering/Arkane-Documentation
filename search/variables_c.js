@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['one_664',['One',['../struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_big_decimal.html#aa5ca811ae0f76a00269fab786753f1e8',1,'HeathenEngineering::Arkane::DataModel::BigDecimal']]],
-  ['onehalf_665',['OneHalf',['../struct_heathen_engineering_1_1_arkane_1_1_data_model_1_1_big_decimal.html#a0ba9c456b1a66ac2be6838a4c8f8ce7e',1,'HeathenEngineering::Arkane::DataModel::BigDecimal']]],
-  ['owner_666',['owner',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_listed_n_f_t_token.html#a40292eb421145e8b13c49f8ce7fe2dca',1,'HeathenEngineering::Arkane::DataModel::ListedNFTToken']]]
+  ['one_652',['One',['../struct_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_big_decimal.html#ad72af0edaa53dc41b183aeb13b857251',1,'HeathenEngineering::BGSDK::DataModel::BigDecimal']]],
+  ['onehalf_653',['OneHalf',['../struct_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_big_decimal.html#a0807ff9ccfbd2ee6e2b7b5cdbe945d81',1,'HeathenEngineering::BGSDK::DataModel::BigDecimal']]],
+  ['owner_654',['owner',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_listed_n_f_t_token.html#ae70859dc61848d3f812ca77d3a5d8400',1,'HeathenEngineering::BGSDK::DataModel::ListedNFTToken']]]
 ];

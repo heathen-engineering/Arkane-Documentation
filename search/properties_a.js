@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['url_752',['url',['../class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html#a6893bfabb598fccd9acd967040fbbc9e',1,'HeathenEngineering::Arkane::Engine::Token']]]
+  ['walleturi_745',['WalletUri',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_engine_1_1_b_g_s_d_k_settings.html#afb802494016e8940baa6232094d57f42',1,'HeathenEngineering::BGSDK::Engine::BGSDKSettings']]]
 ];

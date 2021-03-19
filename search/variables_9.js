@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['lastname_658',['lastName',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_user_profile.html#a5ce83271906e4bfb1b80c905dac7d697',1,'HeathenEngineering::Arkane::DataModel::UserProfile']]],
-  ['logo_659',['logo',['../class_heathen_engineering_1_1_arkane_1_1_data_model_1_1_token_balance.html#ad50b329abe3fc687ef562b0c0d7d9183',1,'HeathenEngineering::Arkane::DataModel::TokenBalance']]]
+  ['lastname_645',['lastName',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_user_profile.html#ace110b487332aa851606b6ddc6849ad9',1,'HeathenEngineering::BGSDK::DataModel::UserProfile']]],
+  ['logo_646',['logo',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_data_model_1_1_token_balance.html#abd490037ff5d49aa70b1f76c297e076d',1,'HeathenEngineering::BGSDK::DataModel::TokenBalance']]]
 ];

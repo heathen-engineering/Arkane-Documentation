@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['decimals_737',['decimals',['../class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html#a4254564e7278f27da668a03350e190c4',1,'HeathenEngineering::Arkane::Engine::Token']]],
-  ['description_738',['description',['../class_heathen_engineering_1_1_arkane_1_1_engine_1_1_contract.html#a5d89a4ef41a40f94c3db285766b019c7',1,'HeathenEngineering.Arkane.Engine.Contract.description()'],['../class_heathen_engineering_1_1_arkane_1_1_engine_1_1_token.html#a3d5e38e888805e4f4912845700628df7',1,'HeathenEngineering.Arkane.Engine.Token.description()']]]
+  ['datatype_725',['DataType',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_engine_1_1_toke_properties.html#af66c3df64e982b834d21d83d59e27922',1,'HeathenEngineering.BGSDK.Engine.TokeProperties.DataType()'],['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_engine_1_1_token_properties.html#a36a2dd0a6dfa4508f714d5cc377eadcc',1,'HeathenEngineering.BGSDK.Engine.TokenProperties.DataType()']]],
+  ['decimals_726',['Decimals',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_engine_1_1_token.html#a618c892392667e5385b2a6f48a23ed46',1,'HeathenEngineering::BGSDK::Engine::Token']]],
+  ['description_727',['Description',['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_engine_1_1_contract.html#aa60c1bbc68b3d07305740380f565b120',1,'HeathenEngineering.BGSDK.Engine.Contract.Description()'],['../class_heathen_engineering_1_1_b_g_s_d_k_1_1_engine_1_1_token.html#a480f581caa3100a71efa23bf9fafd6b2',1,'HeathenEngineering.BGSDK.Engine.Token.Description()']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['warning_728',['Warning',['../namespace_heathen_engineering_1_1_arkane.html#a04b491a59ccfbca928a1da42edc5f4cba0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'HeathenEngineering.Arkane.Warning()'],['../namespace_heathen_engineering_1_1_arkane.html#a05a79d533a0c1fb333843fc36b8102e7a0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'HeathenEngineering.Arkane.Warning()']]]
+  ['warning_716',['Warning',['../namespace_heathen_engineering_1_1_b_g_s_d_k.html#a3ed3427769c6e57fc7cef43bd1c4a8e2a0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'HeathenEngineering.BGSDK.Warning()'],['../namespace_heathen_engineering_1_1_b_g_s_d_k.html#a7c6c4205a7a3e6f29a606574923a31b4a0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'HeathenEngineering.BGSDK.Warning()']]]
 ];
